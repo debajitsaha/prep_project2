@@ -1,11 +1,13 @@
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding:0;
 }
 .navbar{
-    height: 130px;
+    height: 110px;
    display: flex;
 /* background-color: blue; */
-box-shadow:  5px 8px 5px rgb(128, 128, 128);
+box-shadow:  4px 5px 4px rgb(212, 209, 209);
 
 }
 .text{
@@ -13,7 +15,7 @@ box-shadow:  5px 8px 5px rgb(128, 128, 128);
     width: 250px;
     text-align:center;
     /* background-color: aqua; */
-    font-size: 50px;
+    font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       margin:30px;
       margin-left: 100px;
@@ -31,30 +33,23 @@ box-shadow:  5px 8px 5px rgb(128, 128, 128);
     
 }
 .icon{
-    height: 60px;
-    width: 60px;
-    background-color:rgb(53, 182, 241);
-    border-radius: 50%;
-    /* padding: 12px; */
-    justify-content: center;
-   
-
-}
-.plus{
-    font-size: 50px;
-    color: white;
-    /* margin-left: 7px; */
-    /* margin-bottom: 7px; */
-    
     height: 40px;
     width: 40px;
-    text-align:center;
-  margin-left: 10px;
-
-  
-    
-    
+    background-color:rgb(53, 182, 241);
+    border-radius: 50%;
+    justify-content: center;
 }
+
+.plus{
+    font-size: 30px;
+     height: 20px;
+    width: 21px;
+    text-align:center;
+  margin-left: 10px;  
+  margin-top: 2px; 
+  color: white;
+}
+
 .ac{
     text-decoration: none;
     display: flex;
@@ -64,26 +59,39 @@ box-shadow:  5px 8px 5px rgb(128, 128, 128);
    height: 40px; 
    
    width: 200px;
-  padding-top: 16px;
-  font-size: 25px;
+  padding: 9px;
+  font-size: 18px;
+  font-weight:2px;
+  /* margin-bottom: 10px; */
 }
 .midcontainer{
    
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     flex-wrap: wrap;
+}
+/* add new..*/
+.content{
+    padding-left: 20px;
+    line-height: 40px;
     
-   
-    
+}
+.index3content{
+    padding-left: 20px;
+    line-height: 40px;
+}
+.textitem{
+    text-align: center;
+    padding: 8px;
 }
 .item{
     height: 250px;
     width: 250px;
     border: 2px solid rgb(219, 219, 219);
-    margin-left: 70px;
-    margin-top: 60px;
-    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
     /* text-align:center ; */
     
 }
@@ -95,19 +103,22 @@ p{
     color:rgb(53, 182, 241) ;
     
     font-size: 20px;
-    padding-left: 15px;
+    padding-left: 20px;
    
 }
 .check{
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     border-radius: 30px;
+    
     
 }
 .disabled{
     text-decoration: line-through;
     color: rgb(163, 163, 163);
+    padding: 8px;
 }
+
 .parent{
     filter: blur(3px );
 }
@@ -134,7 +145,7 @@ p{
     left: 350px;
 }
 .input{
-    width: 100px;
+    width: 60px;
     position:relative;
     top: 30px;
     left: 20px;
@@ -145,14 +156,18 @@ p{
 }
 .button{
     height: 30px;
-    width: 100px;
+    width: 110px;
     border-radius: 5px;
     background-color: rgb(53, 182, 241);
     position: relative;
-    right: -280px;
+    right: -265px;
     bottom: -50px;
     text-align: center;
+     
 
+}
+.butext{
+    padding-top: 5px;
 }
 .navication{
     text-decoration: none;
@@ -164,39 +179,53 @@ p{
     left: 450px;
 
 }
-.add{
+.addindex3{
     position: absolute;
     top:130px;
-    left:910px;
+    left:750px;
     height: 100px;
     width: 400px;
     
 }
 .back{
     position: absolute;
-    left: 250px;
+    left: 500px;
     top:130px;
-    /* background-color: white; */
+    background-color: white;
     display: flex;
     flex-direction: row;
 }
-#image{
+/* #image{
     height: 45px;
     width: 45px;
     /* position: relative;
     left: 250px;
     top:-280px;  */
-}
+    .backcolor{
+        background-color: rgb(54, 53, 53);
+    }
 #backtext{
-    font-size: 40px;
+    font-size: 22px;
+    margin: 8px;
+}
+.itemindex3{
+    height: 300px;
+    width: 400px;
+    border: 2px solid rgb(219, 219, 219);
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.p{
     text-align: center;
+    font-size: 22px;
 }
 .additem{
     width: 400px;
     height: 200px;
     background-color: rgb(233, 233, 233);
     position: relative;
-    bottom: -140px;
-    left: 35%;
+    bottom: -180px;
+    left: 37%;
     border-radius: 20px;
 }
