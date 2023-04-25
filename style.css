@@ -131,11 +131,14 @@ p{
     left: 35%;
     border-radius: 20px;
 }
+
 .hi{
     position: relative;
-    top: 15px;
-    left: 20px;
+    top: 17px;
+    left: 25px;
     color: rgb(37, 37, 37);
+    line-height: 20px;
+    font-size: 22px;
 }
 #cross{
     text-decoration: none;
@@ -143,6 +146,8 @@ p{
     position: relative;
     color:rgb(37, 37, 37) ;
     left: 350px;
+    bottom: 3px;
+    
 }
 .input{
     width: 60px;
